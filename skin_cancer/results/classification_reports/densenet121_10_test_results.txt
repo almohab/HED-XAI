@@ -1,0 +1,16 @@
+Found 2110 images belonging to 2 classes.
+Found 527 images belonging to 2 classes.
+Found 660 images belonging to 2 classes.
+C:\Users\usER\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:122: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+Test Accuracy: 86.52%
+              precision    recall  f1-score   support
+    accuracy                           0.87       660
+   macro avg       0.86      0.87      0.86       660
+weighted avg       0.87      0.87      0.87       660
+ [[307  53]
+ [ 36 264]]
+ROC-AUC Score: 0.952
+Model Size: 36.16 MB
+⚠️ Training time not recorded (wrap model.fit with time)
+Inference Time: 91.53 ms/image
+Average Inference Time: 101.21 ms/image

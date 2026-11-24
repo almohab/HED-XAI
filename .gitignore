@@ -1,0 +1,21 @@
+# datasets (not redistributed) and generated outputs
+*/data/raw/
+*/data/balanced_data/
+*/data/TB_Chest_Radiography_Database/
+*/data/converted_images*/
+*/data/chest_xray*/
+outputs/
+*/outputs/
+# model weights (too large for GitHub; use Releases)
+*.h5
+*.keras
+*.hdf5
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

@@ -1,0 +1,35 @@
+Found 4099 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Total training time: 119.33 minutes
+Final Training Accuracy: 97.02%
+Final Validation Accuracy: 95.68%
+Test Accuracy: 96.36%
+Total inference time: 111.2330 seconds
+Average inference time per image: 0.126401 seconds
+[[231   7]
+ [ 25 617]]
+              precision    recall  f1-score   support
+      NORMAL     0.9023    0.9706    0.9352       238
+   PNEUMONIA     0.9888    0.9611    0.9747       642
+    accuracy                         0.9636       880
+   macro avg     0.9456    0.9658    0.9550       880
+weighted avg     0.9654    0.9636    0.9640       880
+ROC-AUC
+ROC-AUC: 0.9949
+ROC-AUC (%): 99.49%
+Average Precision (AP): 0.9981
+Average Precision (%): 99.81%
+Sensitivity: 0.9611
+Sensitivity (%): 96.11%
+Specificity: 0.9706
+Specificity (%): 97.06%
+Model size: 129.51 MB
+Training Accuracy       : 97.02%
+Validation Accuracy     : 95.68%
+Test Accuracy           : 96.36%
+ROC-AUC                 : 99.49%
+Average Precision       : 99.81%
+Sensitivity             : 96.11%
+Specificity             : 97.06%
+Avg. Inference/Image    : 0.126401 seconds

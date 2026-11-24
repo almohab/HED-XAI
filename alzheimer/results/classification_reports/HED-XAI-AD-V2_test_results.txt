@@ -1,0 +1,60 @@
+/step
+
+========================================================================
+FINAL TEST RESULTS -- HED-XAI-ALZHEIMER-V2
+========================================================================
+Test loss:            0.5577
+Accuracy:             85.67%
+Precision:            80.92%
+Sensitivity/Recall:   93.33%
+Specificity:          78.00%
+Negative predictive value: 92.13%
+F1-score:             0.8669
+ROC-AUC:              0.9094
+PR-AUC (trapezoidal): 0.8764
+Average precision:    0.8769
+Confusion matrix (rows=actual, columns=predicted):
+[[234  66]
+ [ 20 280]]
+TN=234, FP=66, FN=20, TP=280
+
+Classification report:
+                    precision    recall  f1-score   support
+
+      Non Demented     0.9213    0.7800    0.8448       300
+Very mild Dementia     0.8092    0.9333    0.8669       300
+
+          accuracy                         0.8567       600
+         macro avg     0.8653    0.8567    0.8558       600
+      weighted avg     0.8653    0.8567    0.8558       600
+
+
+Running horizontal-flip test-time augmentation...
+TTA accuracy:         86.67%
+TTA F1-score:         0.8762
+TTA ROC-AUC:          0.9128
+
+Final metrics table:
+                              Metric                                                                 Value
+                               Model                                                  HED-XAI-ALZHEIMER-V2
+                        Architecture VGG16 + DenseNet121 dual-backbone multi-scale fusion + CBAM attention
+                      Positive class                                                    Very mild Dementia
+                      Negative class                                                          Non Demented
+                          Input size                                                         224 x 224 x 3
+                    Requested epochs                                                                    20
+                    Epochs completed                                                                    20
+                 Best val_loss epoch                                                                    17
+                          Batch size                                                                    16
+                Original image files                                                                  4000
+            Exact duplicates removed                                                                     0
+              Unique images retained                                                                  4000
+                     Training images                                                                  2800
+                   Validation images                                                                   600
+                         Test images                                                                   600
+      Test loss (label-smoothed BCE)                                                              0.557701
+                   Test accuracy (%)                                                             85.666667
+                       Precision (%)                                                             80.924855
+                     Sensitivity (%)                                                             93.333333
+                     Specificity (%)                                                                  78.0
+       Negative predictive value (%)                                                             92.125984
+                            F1-score                                                              0.866873

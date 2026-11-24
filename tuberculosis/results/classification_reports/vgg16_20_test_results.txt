@@ -1,0 +1,9 @@
+Train size: 4900, Validation size: 1050, Test size: 1050
+Test Accuracy: 99.52%
+Test Loss: 0.0284
+               precision    recall  f1-score   support
+      Normal       1.00      0.98      0.99       525
+          TB       0.98      1.00      0.99       525
+    accuracy                           0.99      1050
+   macro avg       0.99      0.99      0.99      1050
+weighted avg       0.99      0.99      0.99      1050

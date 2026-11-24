@@ -1,0 +1,12 @@
+Test Accuracy: 0.8100000023841858
+                    precision    recall  f1-score   support
+      Non Demented       0.95      0.65      0.77       300
+Very mild Dementia       0.74      0.97      0.84       300
+          accuracy                           0.81       600
+         macro avg       0.84      0.81      0.81       600
+      weighted avg       0.84      0.81      0.81       600
+Sensitivity: 0.9667
+Specificity: 0.6533
+Total Inference Time: 15.2465 sec
+Time per Image: 0.025411 sec
+Model Size: 22.78 MB

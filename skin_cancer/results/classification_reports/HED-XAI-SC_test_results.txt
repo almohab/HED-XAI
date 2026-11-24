@@ -1,0 +1,55 @@
+Benign       1152
+Malignant     957
+Benign       288
+Malignant    239
+Benign       360
+Malignant    300
+Same-split exact duplicates removed: 1
+Found 2109 validated image filenames.
+Found 527 validated image filenames.
+Found 660 validated image filenames.
+Best validation-loss epoch: 10
+Training time: 1891.11 seconds
+Training time: 31.52 minutes
+Test loss:                 0.2674
+Accuracy:                  87.88%
+Precision (Malignant):     85.48%
+Sensitivity/Recall:        88.33%
+Specificity:               87.50%
+Negative predictive value: 90.00%
+F1-score:                  0.8689
+ROC-AUC:                   0.9595
+PR-AUC (trapezoidal):      0.9546
+Average precision:         0.9547
+[[315  45]
+ [ 35 265]]
+TN=315, FP=45, FN=35, TP=265
+              precision    recall  f1-score   support
+      Benign     0.9000    0.8750    0.8873       360
+   Malignant     0.8548    0.8833    0.8689       300
+    accuracy                         0.8788       660
+   macro avg     0.8774    0.8792    0.8781       660
+weighted avg     0.8795    0.8788    0.8789       660
+                           Input size                                              224 x 224 x 3
+           Best validation-loss epoch                                                         10
+                           Batch size                                                         16
+  Same-split exact duplicates removed                                                          1
+                            Test loss                                                   0.267429
+                    Test accuracy (%)                                                  87.878788
+                        Precision (%)                                                  85.483871
+                      Sensitivity (%)                                                  88.333333
+                      Specificity (%)                                                       87.5
+        Negative predictive value (%)                                                       90.0
+                             F1-score                                                   0.868852
+                              ROC-AUC                                                   0.959519
+                               PR-AUC                                                   0.954637
+                    Average precision                                                   0.954713
+                     Total parameters                                                    2728097
+                 Trainable parameters                                                    1977601
+             Non-trainable parameters                                                     750496
+    Best model size Keras format (MB)                                                  26.101739
+       Best model size H5 format (MB)                                                  10.781731
+              Training time (seconds)                                                1891.108134
+              Training time (minutes)                                                  31.518469
+       Prediction time per image (ms)                                                  20.829533
+ - D:\Downloads\Data Analysis\master\Phd\HED_XAI_SC_Results\HED_XAI_SC_ROC_Curve.png

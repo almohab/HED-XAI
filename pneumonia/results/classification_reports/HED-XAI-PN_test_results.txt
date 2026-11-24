@@ -1,0 +1,43 @@
+WARNING: 16 byte-identical image(s) occur in multiple splits.
+Found 4099 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Best validation-loss epoch: 6
+Training time: 5217.57 seconds (86.96 minutes)
+Test loss: 0.0438
+Accuracy: 98.41%
+Macro precision: 0.9850
+Macro sensitivity/recall: 0.9746
+Macro F1-score: 0.9796
+Weighted precision: 0.9841
+Weighted recall: 0.9841
+Weighted F1-score: 0.9840
+Macro ROC-AUC (one-vs-rest): 0.9991
+Macro average precision: 0.9987
+ [[227  11]
+ [  3 639]]
+              precision    recall  f1-score   support
+      NORMAL     0.9870    0.9538    0.9701       238
+   PNEUMONIA     0.9831    0.9953    0.9892       642
+    accuracy                         0.9841       880
+   macro avg     0.9850    0.9746    0.9796       880
+weighted avg     0.9841    0.9841    0.9840       880
+          Best validation-loss epoch                                                          6
+                           Test loss                                                   0.043797
+                   Test accuracy (%)                                                  98.409091
+                     Macro precision                                                   0.985017
+            Macro sensitivity/recall                                                   0.974554
+                      Macro F1-score                                                   0.979625
+                  Weighted precision                                                   0.984126
+                     Weighted recall                                                   0.984091
+                   Weighted F1-score                                                   0.984004
+                 Macro ROC-AUC (OvR)                                                   0.999143
+             Macro average precision                                                   0.998717
+                    Total parameters                                                    2728226
+                Trainable parameters                                                    1977730
+            Non-trainable parameters                                                     750496
+             Training time (seconds)                                                5217.569643
+             Training time (minutes)                                                  86.959494
+       Test inference time (seconds)                                                  13.054961
+       Inference time per image (ms)                                                  14.835182
+Inference throughput (images/second)                                                  67.407327

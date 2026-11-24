@@ -1,0 +1,165 @@
+Normal          3500
+Tuberculosis    3500
+Exact duplicate files removed: 330
+Unique images retained: 6670
+Normal          3500
+Tuberculosis    3170
+Train: 4669 images
+Normal          2450
+Tuberculosis    2219
+Validation: 1000 images
+Normal          525
+Tuberculosis    475
+Test: 1001 images
+Normal          525
+Tuberculosis    476
+Best validation-loss epoch: 6
+Training time: 1098.32 seconds
+Training time: 18.31 minutes
+Test loss:            0.0232
+Accuracy:             99.50%
+Precision:            100.00%
+Sensitivity/Recall:   98.95%
+Specificity:           100.00%
+Negative predictive value: 99.06%
+F1-score:              0.9947
+ROC-AUC:               1.0000
+PR-AUC (trapezoidal):  1.0000
+Average precision:     1.0000
+[[525   0]
+ [  5 471]]
+TN=525, FP=0, FN=5, TP=471
+              precision    recall  f1-score   support
+      Normal     0.9906    1.0000    0.9953       525
+Tuberculosis     1.0000    0.9895    0.9947       476
+    accuracy                         0.9950      1001
+   macro avg     0.9953    0.9947    0.9950      1001
+weighted avg     0.9951    0.9950    0.9950      1001
+          Best validation-loss epoch                                                          6
+            Exact duplicates removed                                                        330
+              Unique images retained                                                       6670
+                           Test loss                                                   0.023239
+                       Precision (%)                                                      100.0
+                     Sensitivity (%)                                                   98.94958
+                     Specificity (%)                                                      100.0
+       Negative predictive value (%)                                                  99.056604
+                            F1-score                                                    0.99472
+                             ROC-AUC                                                   0.999996
+                              PR-AUC                                                   0.999996
+                   Average precision                                                   0.999996
+                    Total parameters                                                    2728097
+                Trainable parameters                                                    1977601
+            Non-trainable parameters                                                     750496
+                Best model size (MB)                                                  25.886818
+             Training time (seconds)                                                 1098.31987
+             Training time (minutes)                                                  18.305331
+       Inference time per image (ms)                                                  20.651649
+Inference throughput (images/second)                                                  48.422283
+ - C:\Users\hadia\HED_XAI_TB_Results\HED_XAI_TB_ROC_Curve.png
+              precision    recall  f1-score   support
+      Normal       0.99      1.00      1.00       525
+Tuberculosis       1.00      0.99      0.99       476
+    accuracy                           1.00      1001
+   macro avg       1.00      0.99      0.99      1001
+weighted avg       1.00      1.00      1.00      1001
+accuracy                 : 0.995005
+Test loss:              0.0232
+Accuracy:               99.50%
+Precision:              100.00%
+Sensitivity/Recall:     98.95%
+Specificity:             100.00%
+Negative predictive value: 99.06%
+F1-score:                0.9947
+ROC-AUC:                 1.0000
+PR-AUC (trapezoidal):    1.0000
+Average precision:       1.0000
+Inference per image:     10.86 ms
+Inference throughput:    92.05 images/second
+[[525   0]
+ [  5 471]]
+TN=525, FP=0, FN=5, TP=471
+              precision    recall  f1-score   support
+      Normal     0.9906    1.0000    0.9953       525
+Tuberculosis     1.0000    0.9895    0.9947       476
+    accuracy                         0.9950      1001
+   macro avg     0.9953    0.9947    0.9950      1001
+weighted avg     0.9951    0.9950    0.9950      1001
+          Best validation-loss epoch                                                          6
+       Exact duplicate files removed                                                        NaN
+              Unique images retained                                                       6670
+                           Test loss                                                   0.023239
+                       Precision (%)                                                      100.0
+                     Sensitivity (%)                                                   98.94958
+                     Specificity (%)                                                      100.0
+       Negative predictive value (%)                                                  99.056604
+                            F1-score                                                    0.99472
+                             ROC-AUC                                                   0.999996
+                              PR-AUC                                                   0.999996
+                   Average precision                                                   0.999996
+                    Total parameters                                                    2728097
+                Trainable parameters                                                    1977601
+            Non-trainable parameters                                                     750496
+                Best model size (MB)                                                  25.886818
+             Training time (seconds)                                                        NaN
+             Training time (minutes)                                                        NaN
+       Inference time per image (ms)                                                  10.863237
+Inference throughput (images/second)                                                  92.053593
+ROC curve: C:\Users\hadia\HED_XAI_TB_Results\HED_XAI_TB_ROC_Curve.png
+Normal          3500
+Tuberculosis    3500
+Exact duplicate files removed: 330
+Unique images retained: 6670
+Normal          3500
+Tuberculosis    3170
+Train: 4669 images
+Normal          2450
+Tuberculosis    2219
+Validation: 1000 images
+Normal          525
+Tuberculosis    475
+Test: 1001 images
+Normal          525
+Tuberculosis    476
+Best validation-loss epoch: 6
+Training time: 2114.81 seconds
+Training time: 35.25 minutes
+Test loss:            0.0232
+Accuracy:             99.50%
+Precision:            100.00%
+Sensitivity/Recall:   98.95%
+Specificity:           100.00%
+Negative predictive value: 99.06%
+F1-score:              0.9947
+ROC-AUC:               1.0000
+PR-AUC (trapezoidal):  1.0000
+Average precision:     1.0000
+[[525   0]
+ [  5 471]]
+TN=525, FP=0, FN=5, TP=471
+              precision    recall  f1-score   support
+      Normal     0.9906    1.0000    0.9953       525
+Tuberculosis     1.0000    0.9895    0.9947       476
+    accuracy                         0.9950      1001
+   macro avg     0.9953    0.9947    0.9950      1001
+weighted avg     0.9951    0.9950    0.9950      1001
+          Best validation-loss epoch                                                          6
+            Exact duplicates removed                                                        330
+              Unique images retained                                                       6670
+                           Test loss                                                   0.023239
+                       Precision (%)                                                      100.0
+                     Sensitivity (%)                                                   98.94958
+                     Specificity (%)                                                      100.0
+       Negative predictive value (%)                                                  99.056604
+                            F1-score                                                    0.99472
+                             ROC-AUC                                                   0.999996
+                              PR-AUC                                                   0.999996
+                   Average precision                                                   0.999996
+                    Total parameters                                                    2728097
+                Trainable parameters                                                    1977601
+            Non-trainable parameters                                                     750496
+                Best model size (MB)                                                  25.886826
+             Training time (seconds)                                                2114.814223
+             Training time (minutes)                                                  35.246904
+       Inference time per image (ms)                                                  15.039489
+  Inference time per image (seconds)                                                   0.015039
+Inference throughput (images/second)                                                  66.491621

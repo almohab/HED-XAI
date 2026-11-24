@@ -1,0 +1,34 @@
+Found 2110 images belonging to 2 classes.
+Found 527 images belonging to 2 classes.
+Found 660 images belonging to 2 classes.
+Total training time: 70.08 minutes
+Final Training Accuracy: 94.45%
+Final Validation Accuracy: 77.61%
+Test Accuracy: 81.82%
+Total inference time: 90.3751 seconds
+Average inference time per image: 0.136932 seconds
+[[339  21]
+ [ 99 201]]
+              precision    recall  f1-score   support
+    accuracy                         0.8182       660
+   macro avg     0.8397    0.8058    0.8099       660
+weighted avg     0.8337    0.8182    0.8135       660
+ROC-AUC
+ROC-AUC: 0.9217
+ROC-AUC (%): 92.17%
+Average Precision (AP): 0.9135
+Average Precision (%): 91.35%
+Sensitivity: 0.6700
+Sensitivity (%): 67.00%
+Specificity: 0.9417
+Specificity (%): 94.17%
+Model size: 129.51 MB
+Training Accuracy       : 94.45%
+Validation Accuracy     : 77.61%
+Test Accuracy           : 81.82%
+ROC-AUC                 : 92.17%
+Average Precision       : 91.35%
+Sensitivity             : 67.00%
+Specificity             : 94.17%
+Avg. Inference/Image    : 0.136932 seconds
+Model Size              : 129.51 MB

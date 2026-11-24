@@ -1,0 +1,8 @@
+C:\Users\usER\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:122: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+Test Accuracy: 80.76%
+               precision    recall  f1-score   support
+    accuracy                           0.81       660
+   macro avg       0.83      0.82      0.81       660
+weighted avg       0.84      0.81      0.81       660
+ [[248 112]
+ [ 15 285]]

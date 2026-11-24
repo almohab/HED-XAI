@@ -1,0 +1,21 @@
+Test Accuracy: 89.83%
+Test Loss: 0.2539
+[[189  22   4]
+ [  9  90   8]
+ [  0   4 136]]
+              precision    recall  f1-score   support
+      glioma       0.95      0.88      0.92       215
+  meningioma       0.78      0.84      0.81       107
+   pituitary       0.92      0.97      0.94       140
+    accuracy                           0.90       462
+   macro avg       0.88      0.90      0.89       462
+weighted avg       0.90      0.90      0.90       462
+🕒 Inference Time: 1577.46 ms
+💾 Model Size: 14.14 MB
+              precision    recall  f1-score   support
+      glioma       0.95      0.88      0.92       215
+  meningioma       0.78      0.84      0.81       107
+   pituitary       0.92      0.97      0.94       140
+    accuracy                           0.90       462
+   macro avg       0.88      0.90      0.89       462
+weighted avg       0.90      0.90      0.90       462

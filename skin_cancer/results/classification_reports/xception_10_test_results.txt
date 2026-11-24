@@ -1,0 +1,12 @@
+Found 2110 images belonging to 2 classes.
+Found 527 images belonging to 2 classes.
+Found 660 images belonging to 2 classes.
+C:\Users\usER\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:122: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+Restoring model weights from the end of the best epoch: 10.
+Test Accuracy: 81.52%
+              precision    recall  f1-score   support
+      benign       0.81      0.86      0.84       360
+   malignant       0.82      0.76      0.79       300
+    accuracy                           0.82       660
+   macro avg       0.82      0.81      0.81       660
+weighted avg       0.82      0.82      0.81       660

@@ -1,0 +1,9 @@
+test_set,model,epochs,test_n,accuracy_%,acc_95CI_low_%,acc_95CI_high_%,sensitivity_%,specificity_%,precision_%,NPV_%,balanced_accuracy_%,F1,macro_F1,MCC,cohen_kappa,ROC_AUC,TN,FP,FN,TP,class_weights,parameters,model_size_MB,inference_ms_per_image,training_min,source
+re-split (880),HED-XAI-PN (proposed),50 (best @ 6),880,98.41,97.35,99.05,99.53,95.38,98.31,98.70,97.46,0.9892,0.9796,0.9595,0.9593,0.9991,227,11,3,639,no,2728226,26.1,14.84,86.96,Hybird_Model_Pneumonia_PhD.ipynb
+re-split (880),DenseNet121-20,20,880,96.36,94.91,97.41,95.64,98.32,99.35,89.31,96.98,0.9746,0.9553,0.9127,0.9107,0.9966,234,4,28,614,yes,7300161,,88.36,,Final_models_Pneumonia (cell 19)
+re-split (880),InceptionV3-10,10,880,96.36,94.91,97.41,96.11,97.06,98.88,90.23,96.58,0.9747,0.9550,0.9112,0.9100,0.9949,231,7,25,617,no,22360353,129.51,126.4,119.33,Final_models_Pneumonia (cell 28)
+re-split (880),MobileNetV2-20,20,880,93.52,91.70,94.97,91.74,98.32,99.33,81.53,95.03,0.9538,0.9226,0.8534,0.8458,0.9952,234,4,53,589,yes,2586177,,50.44,,Final_models_Pneumonia (cell 25)
+re-split (880),VGG16-20,20,880,90.11,87.96,91.91,86.76,99.16,99.64,73.52,92.96,0.9276,0.8860,0.7928,0.7742,0.9964,236,2,85,557,yes,21137729,,274.88,,Final_models_Pneumonia (cell 5)
+re-split (880),VGG16-10,10,880,89.20,86.98,91.09,85.51,99.16,99.64,71.73,92.34,0.9204,0.8764,0.7774,0.7558,0.995,236,2,93,549,yes,21137729,,290.97,,Final_models_Pneumonia (cell 4)
+re-split (880),CNN-A-20,20,880,80.80,78.06,83.26,75.86,94.12,97.21,59.10,84.99,0.8521,0.7891,0.6277,0.5898,0.9448,224,14,155,487,yes,13235905,151.55,15.53,62.23,earlier run; the supplied notebook copy was interrupted at epoch 15
+original Kermany (624),VGG16-10 (original split),10,624,87.98,85.19,90.30,99.23,69.23,84.31,98.18,84.23,0.9117,0.8618,0.7515,0.7275,0.9671,162,72,3,387,no,,,,,Final_models_Pneumonia (cell 0)

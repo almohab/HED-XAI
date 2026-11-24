@@ -1,0 +1,87 @@
+Saved model found.
+Original dataset split found.
+Loading previously trained model...
+Model loaded successfully.
+Model summary:
+Test images: 600
+Test class distribution:
+class_name
+Very mild Dementia    300
+Non Demented          300
+Name: count, dtype: int64
+Found 600 validated image filenames.
+Test generator created.
+Generating predictions on the independent test set...
+Predictions completed.
+======================================================================
+FINAL INDEPENDENT TEST RESULTS
+======================================================================
+Test Loss:                  0.1599
+Accuracy:                   92.83%
+Precision:                  92.13%
+Sensitivity:                93.67%
+Specificity:                92.00%
+F1-score:                   0.9289
+ROC-AUC:                    0.9843
+PR-AUC:                     0.9828
+Average Precision:          0.9828
+CONFUSION MATRIX
+[[276  24]
+ [ 19 281]]
+True Negative: 276
+False Positive: 24
+False Negative: 19
+True Positive: 281
+INFERENCE PERFORMANCE
+Model-only inference: 188.9405 ms/image
+End-to-end inference: 97.5569 ms/image
+Total prediction time: 58.5341 seconds
+Throughput: 10.25 images/second
+MODEL INFORMATION
+Model size: 146.37 MB
+Total parameters: 38070433
+CLASSIFICATION REPORT
+                    precision    recall  f1-score   support
+      Non Demented     0.9356    0.9200    0.9277       300
+Very mild Dementia     0.9213    0.9367    0.9289       300
+          accuracy                         0.9283       600
+         macro avg     0.9285    0.9283    0.9283       600
+      weighted avg     0.9285    0.9283    0.9283       600
+FINAL METRICS TABLE
+                         Metric                              Value
+                          Model VGG16-InceptionV3 Hybrid Attention
+                    Test Images                                600
+                      Test Loss                           0.159896
+                   Accuracy (%)                          92.833333
+                  Precision (%)                          92.131148
+                Sensitivity (%)                          93.666667
+                Specificity (%)                               92.0
+                       F1-score                           0.928926
+                        ROC-AUC                           0.984311
+                         PR-AUC                           0.982783
+              Average Precision                           0.982817
+Model-Only Inference (ms/image)                         188.940545
+End-to-End Inference (ms/image)                          97.556865
+Total Prediction Time (seconds)                          58.534119
+     Throughput (images/second)                          10.250432
+                Model Size (MB)                         146.374582
+               Total Parameters                           38070433
+                  True Negative                                276
+                 False Positive                                 24
+                 False Negative                                 19
+                  True Positive                                281
+       Classification Threshold                                0.5
+======================================================================
+EVALUATION COMPLETED - NO TRAINING WAS PERFORMED
+======================================================================
+Results saved in:
+D:\Downloads\VGG16_InceptionV3_Hybrid
+Generated files:
+1. Final_Metrics.csv
+2. Classification_Report.csv
+3. Test_Predictions.csv
+4. Confusion_Matrix.png
+5. ROC_Curve.png
+6. Precision_Recall_Curve.png
+Your previously trained model remains unchanged.
+======================================================================

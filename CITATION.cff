@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "HED-XAI: An explainable hybrid deep learning framework for multi-disease medical image classification with Grad-CAM"
+authors:
+  - family-names: "Almohab"
+    given-names: "Hadi"
+type: software
+version: "1.0.0"
+date-released: "2026-11-12"
+license: MIT
+repository-code: "https://github.com/almohab/HED-XAI"
+keywords: [deep learning, explainable AI, Grad-CAM, medical imaging, Alzheimer's disease, MRI, hybrid CNN]

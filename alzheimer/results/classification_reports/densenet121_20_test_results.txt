@@ -1,0 +1,14 @@
+Test Loss: 0.3647
+Test Accuracy: 0.835
+                    precision    recall  f1-score   support
+      Non Demented     0.8221    0.8550    0.8382       600
+Very mild Dementia     0.8490    0.8150    0.8316       600
+          accuracy                         0.8350      1200
+         macro avg     0.8355    0.8350    0.8349      1200
+      weighted avg     0.8355    0.8350    0.8349      1200
+ROC-AUC: 0.9196
+Average Precision: 0.9012
+Sensitivity: 0.815
+Specificity: 0.855
+Total Inference Time: 113.194 sec
+Time per Image: 0.094328 sec

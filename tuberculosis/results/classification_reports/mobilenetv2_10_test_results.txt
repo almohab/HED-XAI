@@ -1,0 +1,8 @@
+Test Accuracy: 98.86%
+Test Loss: 0.0416
+               precision    recall  f1-score   support
+      Normal       0.98      0.99      0.99       525
+          TB       0.99      0.98      0.99       525
+    accuracy                           0.99      1050
+   macro avg       0.99      0.99      0.99      1050
+weighted avg       0.99      0.99      0.99      1050

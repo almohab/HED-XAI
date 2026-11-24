@@ -1,0 +1,12 @@
+Test Accuracy: 0.903333306312561
+              precision    recall  f1-score   support
+           0       0.93      0.88      0.90       300
+           1       0.88      0.93      0.91       300
+    accuracy                           0.90       600
+   macro avg       0.90      0.90      0.90       600
+weighted avg       0.90      0.90      0.90       600
+Sensitivity: 0.93
+Specificity: 0.8767
+Total Inference Time: 163.5978 sec
+Time per Image: 0.272663 sec
+Model Size: 184.11 MB

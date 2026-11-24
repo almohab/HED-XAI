@@ -1,0 +1,8 @@
+Data shape: (7000, 128, 128, 1)
+Test Accuracy: 97.90%
+               precision    recall  f1-score   support
+    accuracy                           0.98      1050
+   macro avg       0.98      0.98      0.98      1050
+weighted avg       0.98      0.98      0.98      1050
+ [[517   8]
+ [ 14 511]]

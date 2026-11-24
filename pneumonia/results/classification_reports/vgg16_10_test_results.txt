@@ -1,0 +1,18 @@
+Found 4099 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Found 880 images belonging to 2 classes.
+Test Accuracy: 0.892
+              precision    recall  f1-score   support
+      NORMAL       0.72      0.99      0.83       238
+   PNEUMONIA       1.00      0.86      0.92       642
+    accuracy                           0.89       880
+   macro avg       0.86      0.92      0.88       880
+weighted avg       0.92      0.89      0.90       880
+[[236   2]
+ [ 93 549]]
+Sensitivity: 0.8551
+Specificity: 0.9916
+ROC-AUC Score: 0.995
+PR-AUC Score: 0.998
+Total Inference Time: 256.0572 seconds
+Time per Image: 0.290974 seconds
